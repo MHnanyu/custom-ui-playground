@@ -4,9 +4,14 @@
     <p>基于 Element Plus 的自定义组件库</p>
     <el-card>
       <template #header>
-        <span>快速开始</span>
+        <span>组件列表</span>
       </template>
-      <p>请选择左侧菜单查看组件演示</p>
+      <div class="component-list">
+        <h3>Basic 基础组件</h3>
+        <router-link to="/button">
+          <el-button type="primary">Button 按钮</el-button>
+        </router-link>
+      </div>
     </el-card>
   </div>
 </template>
@@ -21,5 +26,14 @@
 }
 h1 {
   color: #409eff;
+}
+.component-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+h3 {
+  margin-bottom: 10px;
+  color: #606266;
 }
 </style>
