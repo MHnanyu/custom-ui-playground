@@ -32,6 +32,11 @@ const router = createRouter({
       path: '/icon',
       name: 'Icon',
       component: () => import('@/views/Icon.vue')
+    },
+    {
+      path: '/layout',
+      name: 'Layout',
+      component: () => import('@/views/Layout.vue')
     }
   ]
 })

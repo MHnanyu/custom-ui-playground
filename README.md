@@ -73,7 +73,7 @@ npm run build
 | cc-color | 色彩 Color | ✅ 已完成 |
 | cc-container | 布局容器 Container | ✅ 已完成 |
 | cc-icon | 图标 Icon | ✅ 已完成 |
-| cc-layout | 布局 Layout | ⏳ 待开发 |
+| cc-layout | 布局 Layout | ✅ 已完成 |
 | cc-link | 链接 Link | ⏳ 待开发 |
 | cc-scrollbar | 滚动条 Scrollbar | ⏳ 待开发 |
 | cc-space | 间距 Space | ⏳ 待开发 |
@@ -171,12 +171,12 @@ npm run build
 
 | 分类 | 总数 | 已完成 | 进度 |
 |------|:----:|:------:|:----:|
-| Basic 基础组件 | 12 | 5 | 42% |
+| Basic 基础组件 | 12 | 6 | 50% |
 | Form 表单组件 | 24 | 0 | 0% |
 | Data 数据展示 | 23 | 0 | 0% |
 | Navigation 导航 | 9 | 0 | 0% |
 | Feedback 反馈 | 10 | 0 | 0% |
-| **总计** | **78** | **5** | **6%** |
+| **总计** | **78** | **6** | **8%** |
 
 ## 技术栈
 

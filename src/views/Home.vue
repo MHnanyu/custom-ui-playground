@@ -23,6 +23,9 @@
         <router-link to="/icon">
           <el-button type="primary">Icon 图标</el-button>
         </router-link>
+        <router-link to="/layout">
+          <el-button type="primary">Layout 布局</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>
