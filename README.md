@@ -79,7 +79,7 @@ npm run build
 | cc-space | 间距 Space | ✅ 已完成 |
 | cc-typography | 排版 Typography | ✅ 已完成 |
 | cc-divider | 分割线 Divider | ✅ 已完成 |
-| cc-ellipsis | 文本省略 Ellipsis | ⏳ 待开发 |
+| cc-ellipsis | 文本省略 Ellipsis | ✅ 已完成 |
 
 ### Form 表单组件 (24)
 
@@ -171,12 +171,12 @@ npm run build
 
 | 分类 | 总数 | 已完成 | 进度 |
 |------|:----:|:------:|:----:|
-| Basic 基础组件 | 12 | 11 | 92% |
+| Basic 基础组件 | 12 | 12 | 100% |
 | Form 表单组件 | 24 | 0 | 0% |
 | Data 数据展示 | 23 | 0 | 0% |
 | Navigation 导航 | 9 | 0 | 0% |
 | Feedback 反馈 | 10 | 0 | 0% |
-| **总计** | **78** | **11** | **14%** |
+| **总计** | **78** | **12** | **15%** |
 
 ## 技术栈
 

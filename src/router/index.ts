@@ -62,6 +62,11 @@ const router = createRouter({
       path: '/divider',
       name: 'Divider',
       component: () => import('@/views/Divider.vue')
+    },
+    {
+      path: '/ellipsis',
+      name: 'Ellipsis',
+      component: () => import('@/views/Ellipsis.vue')
     }
   ]
 })
