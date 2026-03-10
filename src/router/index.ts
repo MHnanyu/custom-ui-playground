@@ -82,6 +82,11 @@ const router = createRouter({
       path: '/checkbox',
       name: 'Checkbox',
       component: () => import('@/views/Checkbox.vue')
+    },
+    {
+      path: '/color-picker',
+      name: 'ColorPicker',
+      component: () => import('@/views/ColorPicker.vue')
     }
   ]
 })

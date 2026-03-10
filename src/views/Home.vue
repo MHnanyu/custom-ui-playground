@@ -55,6 +55,9 @@
         <router-link to="/checkbox">
           <el-button type="success">Checkbox 多选框</el-button>
         </router-link>
+        <router-link to="/color-picker">
+          <el-button type="success">ColorPicker 颜色选择器</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>
