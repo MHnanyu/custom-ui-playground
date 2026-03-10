@@ -49,6 +49,9 @@
         <router-link to="/autocomplete">
           <el-button type="success">Autocomplete 自动补全</el-button>
         </router-link>
+        <router-link to="/cascader">
+          <el-button type="success">Cascader 级联选择器</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>

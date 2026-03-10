@@ -72,6 +72,11 @@ const router = createRouter({
       path: '/autocomplete',
       name: 'Autocomplete',
       component: () => import('@/views/Autocomplete.vue')
+    },
+    {
+      path: '/cascader',
+      name: 'Cascader',
+      component: () => import('@/views/Cascader.vue')
     }
   ]
 })
