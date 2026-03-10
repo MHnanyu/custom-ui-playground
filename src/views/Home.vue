@@ -17,6 +17,9 @@
         <router-link to="/color">
           <el-button type="primary">Color 色彩</el-button>
         </router-link>
+        <router-link to="/container">
+          <el-button type="primary">Container 布局容器</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>
