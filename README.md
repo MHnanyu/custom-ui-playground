@@ -76,7 +76,7 @@ npm run build
 | cc-layout | 布局 Layout | ✅ 已完成 |
 | cc-link | 链接 Link | ✅ 已完成 |
 | cc-scrollbar | 滚动条 Scrollbar | ✅ 已完成 |
-| cc-space | 间距 Space | ⏳ 待开发 |
+| cc-space | 间距 Space | ✅ 已完成 |
 | cc-typography | 排版 Typography | ⏳ 待开发 |
 | cc-divider | 分割线 Divider | ⏳ 待开发 |
 | cc-ellipsis | 文本省略 Ellipsis | ⏳ 待开发 |
@@ -171,12 +171,12 @@ npm run build
 
 | 分类 | 总数 | 已完成 | 进度 |
 |------|:----:|:------:|:----:|
-| Basic 基础组件 | 12 | 8 | 67% |
+| Basic 基础组件 | 12 | 9 | 75% |
 | Form 表单组件 | 24 | 0 | 0% |
 | Data 数据展示 | 23 | 0 | 0% |
 | Navigation 导航 | 9 | 0 | 0% |
 | Feedback 反馈 | 10 | 0 | 0% |
-| **总计** | **78** | **8** | **10%** |
+| **总计** | **78** | **9** | **12%** |
 
 ## 技术栈
 

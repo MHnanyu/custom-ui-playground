@@ -47,6 +47,11 @@ const router = createRouter({
       path: '/scrollbar',
       name: 'Scrollbar',
       component: () => import('@/views/Scrollbar.vue')
+    },
+    {
+      path: '/space',
+      name: 'Space',
+      component: () => import('@/views/Space.vue')
     }
   ]
 })

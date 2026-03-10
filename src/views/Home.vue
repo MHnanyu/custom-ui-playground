@@ -32,6 +32,9 @@
         <router-link to="/scrollbar">
           <el-button type="primary">Scrollbar 滚动条</el-button>
         </router-link>
+        <router-link to="/space">
+          <el-button type="primary">Space 间距</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>
