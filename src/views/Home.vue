@@ -61,6 +61,9 @@
         <router-link to="/date-picker">
           <el-button type="success">DatePicker 日期选择器</el-button>
         </router-link>
+        <router-link to="/date-time-picker">
+          <el-button type="success">DateTimePicker 日期时间选择器</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>
