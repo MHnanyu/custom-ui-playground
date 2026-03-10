@@ -64,13 +64,71 @@
         <router-link to="/date-time-picker">
           <el-button type="success">DateTimePicker 日期时间选择器</el-button>
         </router-link>
-        <router-link to="/descriptions">
-          <el-button type="success">Descriptions 描述列表</el-button>
+        <router-link to="/form">
+          <el-button type="success">Form 表单</el-button>
         </router-link>
         <router-link to="/input">
           <el-button type="success">Input 输入框</el-button>
         </router-link>
-      </div>
+        <router-link to="/input-number">
+          <el-button type="success">InputNumber 数字输入框</el-button>
+        </router-link>
+        <router-link to="/input-tag">
+          <el-button type="success">InputTag 输入框标签</el-button>
+        </router-link>
+        <router-link to="/mention">
+          <el-button type="success">Mention 提及</el-button>
+        </router-link>
+        <router-link to="/radio">
+          <el-button type="success">Radio 单选框</el-button>
+        </router-link>
+        <router-link to="/rate">
+          <el-button type="success">Rate 评分</el-button>
+        </router-link>
+        <router-link to="/select">
+          <el-button type="success">Select 选择器</el-button>
+        </router-link>
+        <router-link to="/virtualized-select">
+          <el-button type="success">VirtualizedSelect 虚拟化选择器</el-button>
+        </router-link>
+        <router-link to="/slider">
+          <el-button type="success">Slider 滑块</el-button>
+        </router-link>
+        <router-link to="/switch">
+          <el-button type="success">Switch 开关</el-button>
+        </router-link>
+        <router-link to="/time-picker">
+          <el-button type="success">TimePicker 时间选择器</el-button>
+        </router-link>
+        <router-link to="/time-select">
+          <el-button type="success">TimeSelect 时间选择</el-button>
+        </router-link>
+        <router-link to="/transfer">
+          <el-button type="success">Transfer 穿梭框</el-button>
+        </router-link>
+        <router-link to="/tree-select">
+          <el-button type="success">TreeSelect 树选择</el-button>
+        </router-link>
+        <router-link to="/upload">
+          <el-button type="success">Upload 上传</el-button>
+        </router-link>
+
+        <h3>Data 数据展示</h3>
+        <router-link to="/descriptions">
+          <el-button type="warning">Descriptions 描述列表</el-button>
+        </router-link>
+        <router-link to="/result">
+          <el-button type="warning">Result 结果</el-button>
+        </router-link>
+
+        <h3>Navigation 导航</h3>
+        <router-link to="/affix">
+          <el-button type="info">Affix 固钉</el-button>
+        </router-link>
+        <router-link to="/anchor">
+          <el-button type="info">Anchor 锚点</el-button>
+        </router-link>
+        </div>
     </el-card>
   </div>
 </template>

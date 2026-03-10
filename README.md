@@ -81,7 +81,7 @@ npm run build
 | cc-divider | 分割线 Divider | ✅ 已完成 |
 | cc-ellipsis | 文本省略 Ellipsis | ✅ 已完成 |
 
-### Form 表单组件 (24)
+### Form 表单组件 (23)
 
 | 组件名 | 说明 | 状态 |
 |--------|------|:----:|
@@ -91,24 +91,23 @@ npm run build
 | cc-color-picker | 颜色选择器 ColorPicker | ✅ 已完成 |
 | cc-date-picker | 日期选择器 DatePicker | ✅ 已完成 |
 | cc-date-time-picker | 日期时间选择器 DateTimePicker | ✅ 已完成 |
-| cc-descriptions | 描述列表 Descriptions | ✅ 已完成 |
-| cc-form | 表单 Form | ⏳ 待开发 |
+| cc-form | 表单 Form | ✅ 已完成 |
 | cc-input | 输入框 Input | ✅ 已完成 |
-| cc-input-number | 数字输入框 InputNumber | ⏳ 待开发 |
-| cc-input-tag | 输入框标签 InputTag | ⏳ 待开发 |
-| cc-mention | 提及 Mention | ⏳ 待开发 |
-| cc-radio | 单选框 Radio | ⏳ 待开发 |
-| cc-rate | 评分 Rate | ⏳ 待开发 |
-| cc-result | 结果 Result | ⏳ 待开发 |
-| cc-select | 选择器 Select | ⏳ 待开发 |
-| cc-select-v2 | 虚拟化选择器 SelectV2 | ⏳ 待开发 |
-| cc-slider | 滑块 Slider | ⏳ 待开发 |
-| cc-switch | 开关 Switch | ⏳ 待开发 |
-| cc-time-picker | 时间选择器 TimePicker | ⏳ 待开发 |
-| cc-time-select | 时间选择 TimeSelect | ⏳ 待开发 |
-| cc-transfer | 穿梭框 Transfer | ⏳ 待开发 |
-| cc-tree-select | 树选择 TreeSelect | ⏳ 待开发 |
-| cc-upload | 上传 Upload | ⏳ 待开发 |
+| cc-input-number | 数字输入框 InputNumber | ✅ 已完成 |
+| cc-input-tag | 输入框标签 InputTag | ✅ 已完成 |
+| cc-mention | 提及 Mention | ✅ 已完成 |
+| cc-radio | 单选框 Radio | ✅ 已完成 |
+| cc-rate | 评分 Rate | ✅ 已完成 |
+| cc-result | 结果 Result | ✅ 已完成 |
+| cc-select | 选择器 Select | ✅ 已完成 |
+| cc-virtualized-select | 虚拟化选择器 VirtualizedSelect | ✅ 已完成 |
+| cc-slider | 滑块 Slider | ✅ 已完成 |
+| cc-switch | 开关 Switch | ✅ 已完成 |
+| cc-time-picker | 时间选择器 TimePicker | ✅ 已完成 |
+| cc-time-select | 时间选择 TimeSelect | ✅ 已完成 |
+| cc-transfer | 穿梭框 Transfer | ✅ 已完成 |
+| cc-tree-select | 树选择 TreeSelect | ✅ 已完成 |
+| cc-upload | 上传 Upload | ✅ 已完成 |
 
 ### Data 数据展示 (23)
 
@@ -125,7 +124,7 @@ npm run build
 | cc-image | 图片 Image | ⏳ 待开发 |
 | cc-pagination | 分页 Pagination | ⏳ 待开发 |
 | cc-progress | 进度条 Progress | ⏳ 待开发 |
-| cc-result | 结果 Result | ⏳ 待开发 |
+| cc-result | 结果 Result | ✅ 已完成 |
 | cc-skeleton | 骨架屏 Skeleton | ⏳ 待开发 |
 | cc-table | 表格 Table | ⏳ 待开发 |
 | cc-table-v2 | 虚拟化表格 TableV2 | ⏳ 待开发 |
@@ -142,8 +141,8 @@ npm run build
 
 | 组件名 | 说明 | 状态 |
 |--------|------|:----:|
-| cc-affix | 固钉 Affix | ⏳ 待开发 |
-| cc-anchor | 锚点 Anchor | ⏳ 待开发 |
+| cc-affix | 固钉 Affix | ✅ 已完成 |
+| cc-anchor | 锚点 Anchor | ✅ 已完成 |
 | cc-breadcrumb | 面包屑 Breadcrumb | ⏳ 待开发 |
 | cc-dropdown | 下拉菜单 Dropdown | ⏳ 待开发 |
 | cc-menu | 菜单 Menu | ⏳ 待开发 |
@@ -172,11 +171,11 @@ npm run build
 | 分类 | 总数 | 已完成 | 进度 |
 |------|:----:|:------:|:----:|
 | Basic 基础组件 | 12 | 12 | 100% |
-| Form 表单组件 | 24 | 8 | 33% |
-| Data 数据展示 | 23 | 1 | 4% |
-| Navigation 导航 | 9 | 0 | 0% |
+| Form 表单组件 | 23 | 24 | 100% |
+| Data 数据展示 | 23 | 2 | 8% |
+| Navigation 导航 | 9 | 2 | 22% |
 | Feedback 反馈 | 10 | 0 | 0% |
-| **总计** | **78** | **21** | **27%** |
+| **总计** | **77** | **36** | **46%** |
 
 ## 技术栈
 
