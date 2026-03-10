@@ -56,7 +56,7 @@ npm run build
 ## 组件开发流程
 
 1. **组件实现**：在 `src/components/` 目录下创建组件
-2. **组件文档**：编写组件的 `.md` 文档，包含 Props、Events、Slots 和使用示例
+2. **组件文档**：在 `components/` 目录下编写组件的 `.md` 文档，包含 Props、Events、Slots 和使用示例
 3. **组件验证**：在 `src/views/` 目录下创建验证页面
 4. **添加路由**：在 `src/router/index.ts` 中添加验证页面的路由
 5. **首页导航**：在 `src/views/Home.vue` 中添加组件的导航链接
@@ -74,7 +74,7 @@ npm run build
 | cc-container | 布局容器 Container | ✅ 已完成 |
 | cc-icon | 图标 Icon | ✅ 已完成 |
 | cc-layout | 布局 Layout | ✅ 已完成 |
-| cc-link | 链接 Link | ⏳ 待开发 |
+| cc-link | 链接 Link | ✅ 已完成 |
 | cc-scrollbar | 滚动条 Scrollbar | ⏳ 待开发 |
 | cc-space | 间距 Space | ⏳ 待开发 |
 | cc-typography | 排版 Typography | ⏳ 待开发 |
@@ -171,12 +171,12 @@ npm run build
 
 | 分类 | 总数 | 已完成 | 进度 |
 |------|:----:|:------:|:----:|
-| Basic 基础组件 | 12 | 6 | 50% |
+| Basic 基础组件 | 12 | 7 | 58% |
 | Form 表单组件 | 24 | 0 | 0% |
 | Data 数据展示 | 23 | 0 | 0% |
 | Navigation 导航 | 9 | 0 | 0% |
 | Feedback 反馈 | 10 | 0 | 0% |
-| **总计** | **78** | **6** | **8%** |
+| **总计** | **78** | **7** | **9%** |
 
 ## 技术栈
 

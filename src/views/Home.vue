@@ -26,6 +26,9 @@
         <router-link to="/layout">
           <el-button type="primary">Layout 布局</el-button>
         </router-link>
+        <router-link to="/link">
+          <el-button type="primary">Link 链接</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>
