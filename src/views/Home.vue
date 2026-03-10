@@ -29,6 +29,9 @@
         <router-link to="/link">
           <el-button type="primary">Link 链接</el-button>
         </router-link>
+        <router-link to="/scrollbar">
+          <el-button type="primary">Scrollbar 滚动条</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>

@@ -42,6 +42,11 @@ const router = createRouter({
       path: '/link',
       name: 'Link',
       component: () => import('@/views/Link.vue')
+    },
+    {
+      path: '/scrollbar',
+      name: 'Scrollbar',
+      component: () => import('@/views/Scrollbar.vue')
     }
   ]
 })
