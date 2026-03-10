@@ -97,6 +97,11 @@ const router = createRouter({
       path: '/date-time-picker',
       name: 'DateTimePicker',
       component: () => import('@/views/DateTimePicker.vue')
+    },
+    {
+      path: '/descriptions',
+      name: 'Descriptions',
+      component: () => import('@/views/Descriptions.vue')
     }
   ]
 })

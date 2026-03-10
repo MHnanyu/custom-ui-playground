@@ -91,7 +91,7 @@ npm run build
 | cc-color-picker | 颜色选择器 ColorPicker | ✅ 已完成 |
 | cc-date-picker | 日期选择器 DatePicker | ✅ 已完成 |
 | cc-date-time-picker | 日期时间选择器 DateTimePicker | ✅ 已完成 |
-| cc-descriptions | 描述列表 Descriptions | ⏳ 待开发 |
+| cc-descriptions | 描述列表 Descriptions | ✅ 已完成 |
 | cc-form | 表单 Form | ⏳ 待开发 |
 | cc-input | 输入框 Input | ⏳ 待开发 |
 | cc-input-number | 数字输入框 InputNumber | ⏳ 待开发 |
@@ -120,7 +120,7 @@ npm run build
 | cc-card | 卡片 Card | ⏳ 待开发 |
 | cc-carousel | 走马灯 Carousel | ⏳ 待开发 |
 | cc-collapse | 折叠面板 Collapse | ⏳ 待开发 |
-| cc-descriptions | 描述列表 Descriptions | ⏳ 待开发 |
+| cc-descriptions | 描述列表 Descriptions | ✅ 已完成 |
 | cc-empty | 空状态 Empty | ⏳ 待开发 |
 | cc-image | 图片 Image | ⏳ 待开发 |
 | cc-pagination | 分页 Pagination | ⏳ 待开发 |
@@ -172,11 +172,11 @@ npm run build
 | 分类 | 总数 | 已完成 | 进度 |
 |------|:----:|:------:|:----:|
 | Basic 基础组件 | 12 | 12 | 100% |
-| Form 表单组件 | 24 | 6 | 25% |
-| Data 数据展示 | 23 | 0 | 0% |
+| Form 表单组件 | 24 | 7 | 29% |
+| Data 数据展示 | 23 | 1 | 4% |
 | Navigation 导航 | 9 | 0 | 0% |
 | Feedback 反馈 | 10 | 0 | 0% |
-| **总计** | **78** | **18** | **23%** |
+| **总计** | **78** | **20** | **26%** |
 
 ## 技术栈
 
