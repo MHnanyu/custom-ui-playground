@@ -67,6 +67,9 @@
         <router-link to="/descriptions">
           <el-button type="success">Descriptions 描述列表</el-button>
         </router-link>
+        <router-link to="/input">
+          <el-button type="success">Input 输入框</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>

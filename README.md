@@ -93,7 +93,7 @@ npm run build
 | cc-date-time-picker | 日期时间选择器 DateTimePicker | ✅ 已完成 |
 | cc-descriptions | 描述列表 Descriptions | ✅ 已完成 |
 | cc-form | 表单 Form | ⏳ 待开发 |
-| cc-input | 输入框 Input | ⏳ 待开发 |
+| cc-input | 输入框 Input | ✅ 已完成 |
 | cc-input-number | 数字输入框 InputNumber | ⏳ 待开发 |
 | cc-input-tag | 输入框标签 InputTag | ⏳ 待开发 |
 | cc-mention | 提及 Mention | ⏳ 待开发 |
@@ -172,11 +172,11 @@ npm run build
 | 分类 | 总数 | 已完成 | 进度 |
 |------|:----:|:------:|:----:|
 | Basic 基础组件 | 12 | 12 | 100% |
-| Form 表单组件 | 24 | 7 | 29% |
+| Form 表单组件 | 24 | 8 | 33% |
 | Data 数据展示 | 23 | 1 | 4% |
 | Navigation 导航 | 9 | 0 | 0% |
 | Feedback 反馈 | 10 | 0 | 0% |
-| **总计** | **78** | **20** | **26%** |
+| **总计** | **78** | **21** | **27%** |
 
 ## 技术栈
 
