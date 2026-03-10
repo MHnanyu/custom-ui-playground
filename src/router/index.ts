@@ -87,6 +87,11 @@ const router = createRouter({
       path: '/color-picker',
       name: 'ColorPicker',
       component: () => import('@/views/ColorPicker.vue')
+    },
+    {
+      path: '/date-picker',
+      name: 'DatePicker',
+      component: () => import('@/views/DatePicker.vue')
     }
   ]
 })
