@@ -57,6 +57,11 @@ const router = createRouter({
       path: '/typography',
       name: 'Typography',
       component: () => import('@/views/Typography.vue')
+    },
+    {
+      path: '/divider',
+      name: 'Divider',
+      component: () => import('@/views/Divider.vue')
     }
   ]
 })

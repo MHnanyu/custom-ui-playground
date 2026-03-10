@@ -38,6 +38,9 @@
         <router-link to="/typography">
           <el-button type="primary">Typography 排版</el-button>
         </router-link>
+        <router-link to="/divider">
+          <el-button type="primary">Divider 分割线</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>
