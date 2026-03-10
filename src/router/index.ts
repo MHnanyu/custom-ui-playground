@@ -27,6 +27,11 @@ const router = createRouter({
       path: '/container',
       name: 'Container',
       component: () => import('@/views/Container.vue')
+    },
+    {
+      path: '/icon',
+      name: 'Icon',
+      component: () => import('@/views/Icon.vue')
     }
   ]
 })

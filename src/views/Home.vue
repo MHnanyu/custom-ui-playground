@@ -20,6 +20,9 @@
         <router-link to="/container">
           <el-button type="primary">Container 布局容器</el-button>
         </router-link>
+        <router-link to="/icon">
+          <el-button type="primary">Icon 图标</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>
