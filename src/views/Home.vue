@@ -11,6 +11,9 @@
         <router-link to="/button">
           <el-button type="primary">Button 按钮</el-button>
         </router-link>
+        <router-link to="/border">
+          <el-button type="primary">Border 边框</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>
