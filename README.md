@@ -70,7 +70,7 @@ npm run build
 |--------|------|:----:|
 | cc-button | 按钮 Button | ✅ 已完成 |
 | cc-border | 边框 Border | ✅ 已完成 |
-| cc-color | 色彩 Color | ⏳ 待开发 |
+| cc-color | 色彩 Color | ✅ 已完成 |
 | cc-container | 布局容器 Container | ⏳ 待开发 |
 | cc-icon | 图标 Icon | ⏳ 待开发 |
 | cc-layout | 布局 Layout | ⏳ 待开发 |
@@ -171,12 +171,12 @@ npm run build
 
 | 分类 | 总数 | 已完成 | 进度 |
 |------|:----:|:------:|:----:|
-| Basic 基础组件 | 12 | 2 | 17% |
+| Basic 基础组件 | 12 | 3 | 25% |
 | Form 表单组件 | 24 | 0 | 0% |
 | Data 数据展示 | 23 | 0 | 0% |
 | Navigation 导航 | 9 | 0 | 0% |
 | Feedback 反馈 | 10 | 0 | 0% |
-| **总计** | **78** | **2** | **3%** |
+| **总计** | **78** | **3** | **4%** |
 
 ## 技术栈
 

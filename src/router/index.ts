@@ -17,6 +17,11 @@ const router = createRouter({
       path: '/border',
       name: 'Border',
       component: () => import('@/views/Border.vue')
+    },
+    {
+      path: '/color',
+      name: 'Color',
+      component: () => import('@/views/Color.vue')
     }
   ]
 })

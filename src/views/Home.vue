@@ -14,6 +14,9 @@
         <router-link to="/border">
           <el-button type="primary">Border 边框</el-button>
         </router-link>
+        <router-link to="/color">
+          <el-button type="primary">Color 色彩</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>
