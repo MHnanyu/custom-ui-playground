@@ -143,6 +143,12 @@
         <router-link to="/steps">
           <el-button type="info">Steps 步骤条</el-button>
         </router-link>
+        <router-link to="/tabs">
+          <el-button type="info">Tabs 标签页</el-button>
+        </router-link>
+        <router-link to="/backtop">
+          <el-button type="info">Backtop 回到顶部</el-button>
+        </router-link>
         </div>
     </el-card>
   </div>
