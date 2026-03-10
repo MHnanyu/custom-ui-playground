@@ -67,6 +67,11 @@ const router = createRouter({
       path: '/ellipsis',
       name: 'Ellipsis',
       component: () => import('@/views/Ellipsis.vue')
+    },
+    {
+      path: '/autocomplete',
+      name: 'Autocomplete',
+      component: () => import('@/views/Autocomplete.vue')
     }
   ]
 })

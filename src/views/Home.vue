@@ -44,6 +44,11 @@
         <router-link to="/ellipsis">
           <el-button type="primary">Ellipsis 文本省略</el-button>
         </router-link>
+
+        <h3>Form 表单组件</h3>
+        <router-link to="/autocomplete">
+          <el-button type="success">Autocomplete 自动补全</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>

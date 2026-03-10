@@ -85,7 +85,7 @@ npm run build
 
 | 组件名 | 说明 | 状态 |
 |--------|------|:----:|
-| cc-autocomplete | 自动补全输入框 Autocomplete | ⏳ 待开发 |
+| cc-autocomplete | 自动补全输入框 Autocomplete | ✅ 已完成 |
 | cc-cascader | 级联选择器 Cascader | ⏳ 待开发 |
 | cc-checkbox | 多选框 Checkbox | ⏳ 待开发 |
 | cc-color-picker | 颜色选择器 ColorPicker | ⏳ 待开发 |
@@ -172,11 +172,11 @@ npm run build
 | 分类 | 总数 | 已完成 | 进度 |
 |------|:----:|:------:|:----:|
 | Basic 基础组件 | 12 | 12 | 100% |
-| Form 表单组件 | 24 | 0 | 0% |
+| Form 表单组件 | 24 | 1 | 4% |
 | Data 数据展示 | 23 | 0 | 0% |
 | Navigation 导航 | 9 | 0 | 0% |
 | Feedback 反馈 | 10 | 0 | 0% |
-| **总计** | **78** | **12** | **15%** |
+| **总计** | **78** | **13** | **17%** |
 
 ## 技术栈
 
