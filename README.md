@@ -143,11 +143,11 @@ npm run build
 |--------|------|:----:|
 | cc-affix | 固钉 Affix | ✅ 已完成 |
 | cc-anchor | 锚点 Anchor | ✅ 已完成 |
-| cc-breadcrumb | 面包屑 Breadcrumb | ⏳ 待开发 |
-| cc-dropdown | 下拉菜单 Dropdown | ⏳ 待开发 |
-| cc-menu | 菜单 Menu | ⏳ 待开发 |
-| cc-page-header | 页头 PageHeader | ⏳ 待开发 |
-| cc-steps | 步骤条 Steps | ⏳ 待开发 |
+| cc-breadcrumb | 面包屑 Breadcrumb | ✅ 已完成 |
+| cc-dropdown | 下拉菜单 Dropdown | ✅ 已完成 |
+| cc-menu | 菜单 Menu | ✅ 已完成 |
+| cc-page-header | 页头 PageHeader | ✅ 已完成 |
+| cc-steps | 步骤条 Steps | ✅ 已完成 |
 | cc-tabs | 标签页 Tabs | ⏳ 待开发 |
 | cc-backtop | 回到顶部 Backtop | ⏳ 待开发 |
 
@@ -173,9 +173,9 @@ npm run build
 | Basic 基础组件 | 12 | 12 | 100% |
 | Form 表单组件 | 23 | 24 | 100% |
 | Data 数据展示 | 23 | 2 | 8% |
-| Navigation 导航 | 9 | 2 | 22% |
+| Navigation 导航 | 9 | 7 | 78% |
 | Feedback 反馈 | 10 | 0 | 0% |
-| **总计** | **77** | **36** | **46%** |
+| **总计** | **77** | **45** | **58%** |
 
 ## 技术栈
 
