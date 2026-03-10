@@ -104,9 +104,99 @@ const router = createRouter({
       component: () => import('@/views/Descriptions.vue')
     },
     {
+      path: '/form',
+      name: 'Form',
+      component: () => import('@/views/Form.vue')
+    },
+    {
       path: '/input',
       name: 'Input',
       component: () => import('@/views/Input.vue')
+    },
+    {
+      path: '/input-number',
+      name: 'InputNumber',
+      component: () => import('@/views/InputNumber.vue')
+    },
+    {
+      path: '/input-tag',
+      name: 'InputTag',
+      component: () => import('@/views/InputTag.vue')
+    },
+    {
+      path: '/mention',
+      name: 'Mention',
+      component: () => import('@/views/Mention.vue')
+    },
+    {
+      path: '/radio',
+      name: 'Radio',
+      component: () => import('@/views/Radio.vue')
+    },
+    {
+      path: '/rate',
+      name: 'Rate',
+      component: () => import('@/views/Rate.vue')
+    },
+    {
+      path: '/result',
+      name: 'Result',
+      component: () => import('@/views/Result.vue')
+    },
+    {
+      path: '/select',
+      name: 'Select',
+      component: () => import('@/views/Select.vue')
+    },
+    {
+      path: '/virtualized-select',
+      name: 'VirtualizedSelect',
+      component: () => import('@/views/VirtualizedSelect.vue')
+    },
+    {
+      path: '/slider',
+      name: 'Slider',
+      component: () => import('@/views/Slider.vue')
+    },
+    {
+      path: '/switch',
+      name: 'Switch',
+      component: () => import('@/views/Switch.vue')
+    },
+    {
+      path: '/time-picker',
+      name: 'TimePicker',
+      component: () => import('@/views/TimePicker.vue')
+    },
+    {
+      path: '/time-select',
+      name: 'TimeSelect',
+      component: () => import('@/views/TimeSelect.vue')
+    },
+    {
+      path: '/transfer',
+      name: 'Transfer',
+      component: () => import('@/views/Transfer.vue')
+    },
+    {
+      path: '/tree-select',
+      name: 'TreeSelect',
+      component: () => import('@/views/TreeSelect.vue')
+    },
+    {
+      path: '/upload',
+      name: 'Upload',
+      component: () => import('@/views/Upload.vue')
+    },
+    {
+      path: '/affix',
+      name: 'Affix',
+      component: () => import('@/views/Affix.vue')
+    },
+    {
+      path: '/anchor',
+      name: 'Anchor',
+      component: () => import('@/views/Anchor.vue')
     }
   ]
 })
