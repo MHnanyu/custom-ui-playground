@@ -52,6 +52,9 @@
         <router-link to="/cascader">
           <el-button type="success">Cascader 级联选择器</el-button>
         </router-link>
+        <router-link to="/checkbox">
+          <el-button type="success">Checkbox 多选框</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>

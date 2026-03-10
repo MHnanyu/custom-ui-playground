@@ -77,6 +77,11 @@ const router = createRouter({
       path: '/cascader',
       name: 'Cascader',
       component: () => import('@/views/Cascader.vue')
+    },
+    {
+      path: '/checkbox',
+      name: 'Checkbox',
+      component: () => import('@/views/Checkbox.vue')
     }
   ]
 })
