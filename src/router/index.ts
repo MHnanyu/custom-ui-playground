@@ -52,6 +52,11 @@ const router = createRouter({
       path: '/space',
       name: 'Space',
       component: () => import('@/views/Space.vue')
+    },
+    {
+      path: '/typography',
+      name: 'Typography',
+      component: () => import('@/views/Typography.vue')
     }
   ]
 })

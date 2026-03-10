@@ -35,6 +35,9 @@
         <router-link to="/space">
           <el-button type="primary">Space 间距</el-button>
         </router-link>
+        <router-link to="/typography">
+          <el-button type="primary">Typography 排版</el-button>
+        </router-link>
       </div>
     </el-card>
   </div>
