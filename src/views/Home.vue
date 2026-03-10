@@ -128,6 +128,21 @@
         <router-link to="/anchor">
           <el-button type="info">Anchor 锚点</el-button>
         </router-link>
+        <router-link to="/menu">
+          <el-button type="info">Menu 菜单</el-button>
+        </router-link>
+        <router-link to="/breadcrumb">
+          <el-button type="info">Breadcrumb 面包屑</el-button>
+        </router-link>
+        <router-link to="/dropdown">
+          <el-button type="info">Dropdown 下拉菜单</el-button>
+        </router-link>
+        <router-link to="/page-header">
+          <el-button type="info">PageHeader 页头</el-button>
+        </router-link>
+        <router-link to="/steps">
+          <el-button type="info">Steps 步骤条</el-button>
+        </router-link>
         </div>
     </el-card>
   </div>

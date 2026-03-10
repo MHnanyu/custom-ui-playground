@@ -197,6 +197,31 @@ const router = createRouter({
       path: '/anchor',
       name: 'Anchor',
       component: () => import('@/views/Anchor.vue')
+    },
+    {
+      path: '/menu',
+      name: 'Menu',
+      component: () => import('@/views/Menu.vue')
+    },
+    {
+      path: '/breadcrumb',
+      name: 'Breadcrumb',
+      component: () => import('@/views/Breadcrumb.vue')
+    },
+    {
+      path: '/dropdown',
+      name: 'Dropdown',
+      component: () => import('@/views/Dropdown.vue')
+    },
+    {
+      path: '/page-header',
+      name: 'PageHeader',
+      component: () => import('@/views/PageHeader.vue')
+    },
+    {
+      path: '/steps',
+      name: 'Steps',
+      component: () => import('@/views/Steps.vue')
     }
   ]
 })
