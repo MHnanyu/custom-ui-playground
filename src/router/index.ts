@@ -222,6 +222,16 @@ const router = createRouter({
       path: '/steps',
       name: 'Steps',
       component: () => import('@/views/Steps.vue')
+    },
+    {
+      path: '/tabs',
+      name: 'Tabs',
+      component: () => import('@/views/Tabs.vue')
+    },
+    {
+      path: '/backtop',
+      name: 'Backtop',
+      component: () => import('@/views/Backtop.vue')
     }
   ]
 })

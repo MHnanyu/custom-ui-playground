@@ -148,8 +148,8 @@ npm run build
 | cc-menu | 菜单 Menu | ✅ 已完成 |
 | cc-page-header | 页头 PageHeader | ✅ 已完成 |
 | cc-steps | 步骤条 Steps | ✅ 已完成 |
-| cc-tabs | 标签页 Tabs | ⏳ 待开发 |
-| cc-backtop | 回到顶部 Backtop | ⏳ 待开发 |
+| cc-tabs | 标签页 Tabs | ✅ 已完成 |
+| cc-backtop | 回到顶部 Backtop | ✅ 已完成 |
 
 ### Feedback 反馈 (10)
 
@@ -171,11 +171,11 @@ npm run build
 | 分类 | 总数 | 已完成 | 进度 |
 |------|:----:|:------:|:----:|
 | Basic 基础组件 | 12 | 12 | 100% |
-| Form 表单组件 | 23 | 24 | 100% |
+| Form 表单组件 | 23 | 23 | 100% |
 | Data 数据展示 | 23 | 2 | 8% |
-| Navigation 导航 | 9 | 7 | 78% |
+| Navigation 导航 | 9 | 9 | 100% |
 | Feedback 反馈 | 10 | 0 | 0% |
-| **总计** | **77** | **45** | **58%** |
+| **总计** | **77** | **46** | **60%** |
 
 ## 技术栈
 
