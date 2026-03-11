@@ -56,8 +56,8 @@
 
 ```vue
 <template>
-  <cc-link href="https://element-plus.org" target="_blank">Element Plus</cc-link>
-  <cc-link type="primary" href="https://github.com" target="_blank">GitHub</cc-link>
+  <cc-link href="https://example.com" target="_blank">示例链接</cc-link>
+  <cc-link type="primary" href="https://example.com" target="_blank">示例链接</cc-link>
 </template>
 ```
 

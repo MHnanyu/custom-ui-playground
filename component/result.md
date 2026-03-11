@@ -46,7 +46,7 @@
 <template>
   <cc-result title="自定义图标">
     <template #icon>
-      <el-icon :size="60"><Star /></el-icon>
+      <cc-icon :icon="Star" :size="60" />
     </template>
   </cc-result>
 </template>
@@ -81,8 +81,8 @@ import { Star } from '@element-plus/icons-vue'
     sub-title="请根据提示进行操作"
   >
     <template #default>
-      <el-button type="primary">返回首页</el-button>
-      <el-button>查看详情</el-button>
+      <cc-button type="primary">返回首页</cc-button>
+      <cc-button>查看详情</cc-button>
     </template>
   </cc-result>
 </template>

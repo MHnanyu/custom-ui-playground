@@ -94,10 +94,10 @@ const num3 = ref(1)
 <template>
   <cc-input-number v-model="num" :min="1" :max="10">
     <template #decrease>
-      <el-icon><Minus /></el-icon>
+      <cc-icon :icon="Minus" />
     </template>
     <template #increase>
-      <el-icon><Plus /></el-icon>
+      <cc-icon :icon="Plus" />
     </template>
   </cc-input-number>
 </template>

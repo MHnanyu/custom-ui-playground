@@ -9,7 +9,7 @@
 ```vue
 <template>
   <cc-affix>
-    <el-button type="primary">固定在顶部</el-button>
+    <cc-button type="primary">固定在顶部</cc-button>
   </cc-affix>
 </template>
 ```
@@ -22,13 +22,13 @@
 <template>
   <div class="affix-container">
     <cc-affix position="top">
-      <el-button type="primary">固定在顶部</el-button>
+      <cc-button type="primary">固定在顶部</cc-button>
     </cc-affix>
     <div style="height: 1500px;">
       <p>向下滚动查看固钉效果</p>
     </div>
     <cc-affix position="bottom" :offset="20">
-      <el-button type="success">固定在底部</el-button>
+      <cc-button type="success">固定在底部</cc-button>
     </cc-affix>
   </div>
 </template>
@@ -41,7 +41,7 @@
 ```vue
 <template>
   <cc-affix :offset="80">
-    <el-button type="primary">距离顶部 80px 固定</el-button>
+    <cc-button type="primary">距离顶部 80px 固定</cc-button>
   </cc-affix>
 </template>
 ```
@@ -53,7 +53,7 @@
 ```vue
 <template>
   <cc-affix @change="handleChange">
-    <el-button type="primary">{{ fixed ? '已固定' : '未固定' }}</el-button>
+    <cc-button type="primary">{{ fixed ? '已固定' : '未固定' }}</cc-button>
   </cc-affix>
 </template>
 
@@ -77,15 +77,15 @@ const handleChange = (isFixed: boolean) => {
 <template>
   <div class="affix-target-container" ref="containerRef">
     <cc-affix :target="targetFunc">
-      <el-button type="primary">固定在目标容器内</el-button>
+      <cc-button type="primary">固定在目标容器内</cc-button>
     </cc-affix>
   </div>
 </template>
 
 <script setup lang="ts">
-import 'vue'
+import { ref } from 'vue'
 
-const { ref } from containerRef = ref<HTMLElement>()
+const containerRef = ref<HTMLElement>()
 
 const targetFunc = () => {
   return containerRef.value
@@ -117,7 +117,6 @@ const targetFunc = () => {
 | change | 固定状态变化时触发 | (isFixed: boolean) |
 
 ## Slots
-
 | 插槽名 | 说明 |
 |-------|------|
 | default | 固钉内容 |

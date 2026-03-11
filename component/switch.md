@@ -133,13 +133,12 @@ const value2 = ref(false)
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { ElMessage } from 'element-plus'
 
 const value = ref(true)
 
 const beforeChange = () => {
   return new Promise((resolve) => {
-    ElMessage.info('阻止关闭')
+    console.log('阻止关闭')
     resolve(false)
   })
 }

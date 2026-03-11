@@ -42,15 +42,23 @@ const form = reactive({
       <cc-input v-model="form.email" placeholder="请输入邮箱" />
     </cc-form-item>
     <cc-form-item>
-      <el-button type="primary" @click="submitForm">提交</el-button>
-      <el-button @click="resetForm">重置</el-button>
+      <cc-button type="primary" @click="submitForm">提交</cc-button>
+      <cc-button @click="resetForm">重置</cc-button>
     </cc-form-item>
   </cc-form>
 </template>
 
 <script setup lang="ts">
 import { reactive, ref } from 'vue'
-import type { FormInstance, FormRules } from 'element-plus'
+
+interface FormInstance {
+  validate: () => Promise<void>
+  resetFields: () => void
+}
+
+interface FormRules {
+  [key: string]: Array<{ required?: boolean; message?: string; trigger?: string; type?: string }>
+}
 
 const formRef = ref<FormInstance>()
 const form = reactive({
@@ -91,7 +99,7 @@ const resetForm = () => {
       <cc-input v-model="form.name" placeholder="请输入姓名" />
     </cc-form-item>
     <cc-form-item>
-      <el-button type="primary" @click="onSubmit">查询</el-button>
+      <cc-button type="primary" @click="onSubmit">查询</cc-button>
     </cc-form-item>
   </cc-form>
 </template>

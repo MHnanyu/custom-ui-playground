@@ -48,7 +48,7 @@ const input = ref('')
 
 ## 带图标的输入框
 
-使用 `prefix-icon` 和 `suffix-icon` 属性来添加图标。
+使用 `prefix-icon` 和 `suffix-icon` 属性来添加图标，也可以使用插槽自定义前后置内容。
 
 ```vue
 <template>
@@ -65,16 +65,16 @@ const input2 = ref('')
 </script>
 ```
 
-也可以使用插槽：
+使用插槽自定义内容：
 
 ```vue
 <template>
   <cc-input v-model="input" placeholder="请输入内容">
     <template #prefix>
-      <el-icon><Search /></el-icon>
+      <span>🔍</span>
     </template>
     <template #suffix>
-      <el-icon><Search /></el-icon>
+      <span>🔍</span>
     </template>
   </cc-input>
 </template>
@@ -94,21 +94,20 @@ const input2 = ref('')
   </cc-input>
   <cc-input v-model="input3" placeholder="请输入内容">
     <template #prepend>
-      <el-select v-model="select" style="width: 100px">
-        <el-option label="餐厅名" value="1" />
-        <el-option label="订单号" value="2" />
-        <el-option label="用户电话" value="3" />
-      </el-select>
+      <cc-select v-model="select" style="width: 100px">
+        <cc-option label="餐厅名" value="1" />
+        <cc-option label="订单号" value="2" />
+        <cc-option label="用户电话" value="3" />
+      </cc-select>
     </template>
     <template #append>
-      <el-button :icon="Search" />
+      <cc-button icon="Search" />
     </template>
   </cc-input>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { Search } from '@element-plus/icons-vue'
 
 const input1 = ref('')
 const input2 = ref('')

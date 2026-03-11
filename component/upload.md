@@ -29,12 +29,12 @@
     action="https://run.mocky.io/v3/435e224c-44fb-4773-9faf-380c5e6a2188"
     multiple
   >
-    <el-icon class="el-icon--upload"><upload-filled /></el-icon>
-    <div class="el-upload__text">
+    <cc-icon :icon="UploadFilled" :size="40" />
+    <div class="upload-text">
       将文件拖到此处，或<em>点击上传</em>
     </div>
     <template #tip>
-      <div class="el-upload__tip">
+      <div class="upload-tip">
         jpg/png 文件且不超过 500kb
       </div>
     </template>
@@ -44,6 +44,19 @@
 <script setup lang="ts">
 import { UploadFilled } from '@element-plus/icons-vue'
 </script>
+
+<style scoped>
+.upload-text {
+  text-align: center;
+  margin-top: 10px;
+}
+.upload-tip {
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+  margin-top: 10px;
+}
+</style>
 ```
 
 ## 照片墙
@@ -58,16 +71,20 @@ import { UploadFilled } from '@element-plus/icons-vue'
     :limit="5"
     v-model:file-list="fileList"
   >
-    <el-icon><plus /></el-icon>
+    <cc-icon :icon="Plus" />
   </cc-upload>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue'
 import { Plus } from '@element-plus/icons-vue'
-import type { UploadUserFile } from 'element-plus'
 
-const fileList = ref<UploadUserFile[]>([
+interface UploadFile {
+  name: string
+  url: string
+}
+
+const fileList = ref<UploadFile[]>([
   {
     name: 'food.jpeg',
     url: 'https://fuss10.elemecdn.com/3/63/4e696f65c9854189c9e6f2c06dae7jpeg.jpeg?imageMogr2/thumbnail/360x360'
@@ -94,7 +111,7 @@ const fileList = ref<UploadUserFile[]>([
   >
     <cc-button type="primary">选择文件</cc-button>
     <template #tip>
-      <div class="el-upload__tip" style="margin-top: 10px;">
+      <div class="upload-tip" style="margin-top: 10px;">
         支持 jpg/png 格式，不超过 500kb
       </div>
     </template>
@@ -118,6 +135,13 @@ const clearFiles = () => {
   uploadRef.value?.clearFiles()
 }
 </script>
+
+<style scoped>
+.upload-tip {
+  color: #999;
+  font-size: 12px;
+}
+</style>
 ```
 
 ## 禁用状态

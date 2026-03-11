@@ -6,15 +6,13 @@
 
 ```vue
 <template>
-  <cc-descriptions title="User Info">
-    <cc-descriptions-item label="Username">kooriookami</cc-descriptions-item>
-    <cc-descriptions-item label="Telephone">18100000000</cc-descriptions-item>
-    <cc-descriptions-item label="Place">Suzhou</cc-descriptions-item>
-    <cc-descriptions-item label="Remarks">
-      <el-tag size="small">School</el-tag>
-    </cc-descriptions-item>
-    <cc-descriptions-item label="Address">
-      No.1188, Wuzhong Avenue, Wuzhong District, Suzhou, Jiangsu Province
+  <cc-descriptions title="用户信息">
+    <cc-descriptions-item label="用户名">kooriookami</cc-descriptions-item>
+    <cc-descriptions-item label="手机号">18100000000</cc-descriptions-item>
+    <cc-descriptions-item label="居住地">苏州</cc-descriptions-item>
+    <cc-descriptions-item label="备注">学校</cc-descriptions-item>
+    <cc-descriptions-item label="地址">
+      江苏省苏州市吴中区吴中大道1188号
     </cc-descriptions-item>
   </cc-descriptions>
 </template>
@@ -26,50 +24,40 @@
 
 ```vue
 <template>
-  <el-radio-group v-model="size">
-    <el-radio value="large">Large</el-radio>
-    <el-radio value="default">Default</el-radio>
-    <el-radio value="small">Small</el-radio>
-  </el-radio-group>
-
   <cc-descriptions
     class="margin-top"
-    title="With border"
+    title="带边框"
     :column="3"
     :size="size"
     border
   >
     <template #extra>
-      <el-button type="primary">Operation</el-button>
+      <cc-button type="primary">操作</cc-button>
     </template>
-    <cc-descriptions-item label="Username">kooriookami</cc-descriptions-item>
-    <cc-descriptions-item label="Telephone">18100000000</cc-descriptions-item>
-    <cc-descriptions-item label="Place">Suzhou</cc-descriptions-item>
-    <cc-descriptions-item label="Remarks">
-      <el-tag size="small">School</el-tag>
-    </cc-descriptions-item>
-    <cc-descriptions-item label="Address">
-      No.1188, Wuzhong Avenue, Wuzhong District, Suzhou, Jiangsu Province
+    <cc-descriptions-item label="用户名">kooriookami</cc-descriptions-item>
+    <cc-descriptions-item label="手机号">18100000000</cc-descriptions-item>
+    <cc-descriptions-item label="居住地">苏州</cc-descriptions-item>
+    <cc-descriptions-item label="备注">学校</cc-descriptions-item>
+    <cc-descriptions-item label="地址">
+      江苏省苏州市吴中区吴中大道1188号
     </cc-descriptions-item>
   </cc-descriptions>
 
   <cc-descriptions
     class="margin-top"
-    title="Without border"
+    title="无边框"
     :column="3"
     :size="size"
   >
     <template #extra>
-      <el-button type="primary">Operation</el-button>
+      <cc-button type="primary">操作</cc-button>
     </template>
-    <cc-descriptions-item label="Username">kooriookami</cc-descriptions-item>
-    <cc-descriptions-item label="Telephone">18100000000</cc-descriptions-item>
-    <cc-descriptions-item label="Place">Suzhou</cc-descriptions-item>
-    <cc-descriptions-item label="Remarks">
-      <el-tag size="small">School</el-tag>
-    </cc-descriptions-item>
-    <cc-descriptions-item label="Address">
-      No.1188, Wuzhong Avenue, Wuzhong District, Suzhou, Jiangsu Province
+    <cc-descriptions-item label="用户名">kooriookami</cc-descriptions-item>
+    <cc-descriptions-item label="手机号">18100000000</cc-descriptions-item>
+    <cc-descriptions-item label="居住地">苏州</cc-descriptions-item>
+    <cc-descriptions-item label="备注">学校</cc-descriptions-item>
+    <cc-descriptions-item label="地址">
+      江苏省苏州市吴中区吴中大道1188号
     </cc-descriptions-item>
   </cc-descriptions>
 </template>
@@ -94,19 +82,17 @@ const size = ref('default')
 ```vue
 <template>
   <cc-descriptions
-    title="Vertical list with border"
+    title="垂直列表带边框"
     direction="vertical"
     :column="4"
     border
   >
-    <cc-descriptions-item label="Username">kooriookami</cc-descriptions-item>
-    <cc-descriptions-item label="Telephone">18100000000</cc-descriptions-item>
-    <cc-descriptions-item label="Place" :span="2">Suzhou</cc-descriptions-item>
-    <cc-descriptions-item label="Remarks">
-      <el-tag size="small">School</el-tag>
-    </cc-descriptions-item>
-    <cc-descriptions-item label="Address">
-      No.1188, Wuzhong Avenue, Wuzhong District, Suzhou, Jiangsu Province
+    <cc-descriptions-item label="用户名">kooriookami</cc-descriptions-item>
+    <cc-descriptions-item label="手机号">18100000000</cc-descriptions-item>
+    <cc-descriptions-item label="居住地" :span="2">苏州</cc-descriptions-item>
+    <cc-descriptions-item label="备注">学校</cc-descriptions-item>
+    <cc-descriptions-item label="地址">
+      江苏省苏州市吴中区吴中大道1188号
     </cc-descriptions-item>
   </cc-descriptions>
 </template>
@@ -118,26 +104,24 @@ const size = ref('default')
 
 ```vue
 <template>
-  <cc-descriptions title="Width horizontal list" border>
+  <cc-descriptions title="水平列表" border>
     <cc-descriptions-item
       :rowspan="2"
       :width="140"
-      label="Photo"
+      label="头像"
       align="center"
     >
-      <el-image
+      <img
         style="width: 100px; height: 100px"
-        src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"
+        src="https://example.com/avatar.png"
       />
     </cc-descriptions-item>
-    <cc-descriptions-item label="Username">kooriookami</cc-descriptions-item>
-    <cc-descriptions-item label="Telephone">18100000000</cc-descriptions-item>
-    <cc-descriptions-item label="Place">Suzhou</cc-descriptions-item>
-    <cc-descriptions-item label="Remarks">
-      <el-tag size="small">School</el-tag>
-    </cc-descriptions-item>
-    <cc-descriptions-item label="Address">
-      No.1188, Wuzhong Avenue, Wuzhong District, Suzhou, Jiangsu Province
+    <cc-descriptions-item label="用户名">kooriookami</cc-descriptions-item>
+    <cc-descriptions-item label="手机号">18100000000</cc-descriptions-item>
+    <cc-descriptions-item label="居住地">苏州</cc-descriptions-item>
+    <cc-descriptions-item label="备注">学校</cc-descriptions-item>
+    <cc-descriptions-item label="地址">
+      江苏省苏州市吴中区吴中大道1188号
     </cc-descriptions-item>
   </cc-descriptions>
 </template>
@@ -149,9 +133,9 @@ const size = ref('default')
 
 ```vue
 <template>
-  <cc-descriptions title="Customized style list" :column="3" border>
+  <cc-descriptions title="自定义样式列表" :column="3" border>
     <cc-descriptions-item
-      label="Username"
+      label="用户名"
       label-align="right"
       align="center"
       label-class-name="my-label"
@@ -160,27 +144,27 @@ const size = ref('default')
     >
       kooriookami
     </cc-descriptions-item>
-    <cc-descriptions-item label="Telephone" label-align="right" align="center">
+    <cc-descriptions-item label="手机号" label-align="right" align="center">
       18100000000
     </cc-descriptions-item>
-    <cc-descriptions-item label="Place" label-align="right" align="center">
-      Suzhou
+    <cc-descriptions-item label="居住地" label-align="right" align="center">
+      苏州
     </cc-descriptions-item>
-    <cc-descriptions-item label="Remarks" label-align="right" align="center">
-      <el-tag size="small">School</el-tag>
+    <cc-descriptions-item label="备注" label-align="right" align="center">
+      学校
     </cc-descriptions-item>
-    <cc-descriptions-item label="Address" label-align="right" align="center">
-      No.1188, Wuzhong Avenue, Wuzhong District, Suzhou, Jiangsu Province
+    <cc-descriptions-item label="地址" label-align="right" align="center">
+      江苏省苏州市吴中区吴中大道1188号
     </cc-descriptions-item>
   </cc-descriptions>
 </template>
 
 <style scoped>
 :deep(.my-label) {
-  background: var(--el-color-success-light-9) !important;
+  background: #e1f3d8 !important;
 }
 :deep(.my-content) {
-  background: var(--el-color-danger-light-9);
+  background: #fde2e2;
 }
 </style>
 ```

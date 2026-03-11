@@ -32,15 +32,15 @@ const radio = ref('1')
 
 ## 单选框组
 
-使用 `el-radio-group` 包裹一组单选框。
+使用 `cc-radio-group` 包裹一组单选框。
 
 ```vue
 <template>
-  <el-radio-group v-model="radio">
+  <cc-radio-group v-model="radio">
     <cc-radio label="1">选项一</cc-radio>
     <cc-radio label="2">选项二</cc-radio>
     <cc-radio label="3">选项三</cc-radio>
-  </el-radio-group>
+  </cc-radio-group>
 </template>
 
 <script setup lang="ts">
@@ -56,18 +56,18 @@ const radio = ref('1')
 
 ```vue
 <template>
-  <el-radio-group v-model="radio" size="large">
+  <cc-radio-group v-model="radio" size="large">
     <cc-radio label="1">large</cc-radio>
     <cc-radio label="2">large</cc-radio>
-  </el-radio-group>
-  <el-radio-group v-model="radio">
+  </cc-radio-group>
+  <cc-radio-group v-model="radio">
     <cc-radio label="1">default</cc-radio>
     <cc-radio label="2">default</cc-radio>
-  </el-radio-group>
-  <el-radio-group v-model="radio" size="small">
+  </cc-radio-group>
+  <cc-radio-group v-model="radio" size="small">
     <cc-radio label="1">small</cc-radio>
     <cc-radio label="2">small</cc-radio>
-  </el-radio-group>
+  </cc-radio-group>
 </template>
 ```
 
@@ -84,16 +84,16 @@ const radio = ref('1')
 
 ## 单选框按钮样式
 
-使用 `el-radio-button` 可以实现按钮样式的单选框。
+使用 `cc-radio-button` 可以实现按钮样式的单选框。
 
 ```vue
 <template>
-  <el-radio-group v-model="radio">
-    <el-radio-button label="上海" />
-    <el-radio-button label="北京" />
-    <el-radio-button label="广州" />
-    <el-radio-button label="深圳" />
-  </el-radio-group>
+  <cc-radio-group v-model="radio">
+    <cc-radio-button label="上海" />
+    <cc-radio-button label="北京" />
+    <cc-radio-button label="广州" />
+    <cc-radio-button label="深圳" />
+  </cc-radio-group>
 </template>
 ```
 
@@ -103,12 +103,12 @@ const radio = ref('1')
 
 ```vue
 <template>
-  <el-radio-group v-model="radio" :min="1" :max="2">
+  <cc-radio-group v-model="radio" :min="1" :max="2">
     <cc-radio label="1">选项一</cc-radio>
     <cc-radio label="2">选项二</cc-radio>
     <cc-radio label="3">选项三</cc-radio>
     <cc-radio label="4">选项四</cc-radio>
-  </el-radio-group>
+  </cc-radio-group>
 </template>
 ```
 

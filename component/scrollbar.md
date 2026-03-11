@@ -24,8 +24,8 @@
   margin: 10px;
   text-align: center;
   border-radius: 4px;
-  background: var(--el-color-primary-light-9);
-  color: var(--el-color-primary);
+  background: #ecf5ff;
+  color: #409eff;
 }
 </style>
 ```
@@ -60,8 +60,8 @@
   margin: 10px;
   text-align: center;
   border-radius: 4px;
-  background: var(--el-color-primary-light-9);
-  color: var(--el-color-primary);
+  background: #ecf5ff;
+  color: #409eff;
 }
 </style>
 ```
@@ -87,8 +87,8 @@
 ```vue
 <template>
   <div>
-    <el-button @click="handleScrollTop">滚动到顶部</el-button>
-    <el-button @click="handleScrollBottom">滚动到底部</el-button>
+    <cc-button @click="handleScrollTop">滚动到顶部</cc-button>
+    <cc-button @click="handleScrollBottom">滚动到底部</cc-button>
   </div>
   <cc-scrollbar ref="scrollbarRef" height="400px">
     <p v-for="item in 100" :key="item" class="scrollbar-demo-item">
@@ -103,11 +103,11 @@ import { ref } from 'vue'
 const scrollbarRef = ref()
 
 const handleScrollTop = () => {
-  scrollbarRef.setScrollTop(0)
+  scrollbarRef.value.setScrollTop(0)
 }
 
 const handleScrollBottom = () => {
-  scrollbarRef.setScrollTop(10000)
+  scrollbarRef.value.setScrollTop(10000)
 }
 </script>
 ```

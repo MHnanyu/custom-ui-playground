@@ -70,7 +70,7 @@ const checkList = ref(['Option A', 'Option B'])
   >
     全选
   </cc-checkbox>
-  <el-divider />
+  <cc-divider />
   <cc-checkbox-group v-model="checkedCities" @change="handleCheckedCitiesChange">
     <cc-checkbox v-for="city in cities" :key="city" :label="city">
       {{ city }}

@@ -56,8 +56,8 @@
 
 ```vue
 <template>
-  <cc-button type="primary" icon="el-icon-search">搜索</cc-button>
-  <cc-button type="primary" icon="el-icon-edit">编辑</cc-button>
+  <cc-button type="primary" icon="Search">搜索</cc-button>
+  <cc-button type="primary" icon="Edit">编辑</cc-button>
 </template>
 ```
 

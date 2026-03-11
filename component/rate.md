@@ -48,8 +48,8 @@ const rate = ref(0)
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue } from '@element'
-import { Star-plus/icons-vue'
+import { ref } from 'vue'
+import { Star } from '@element-plus/icons-vue'
 
 const rate = ref(0)
 </script>
