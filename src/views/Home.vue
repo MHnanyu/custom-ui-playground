@@ -114,11 +114,41 @@
         </router-link>
 
         <h3>Data 数据展示</h3>
+        <router-link to="/avatar">
+          <el-button type="warning">Avatar 头像</el-button>
+        </router-link>
+        <router-link to="/collapse">
+          <el-button type="warning">Collapse 折叠面板</el-button>
+        </router-link>
+        <router-link to="/tag">
+          <el-button type="warning">Tag 标签</el-button>
+        </router-link>
         <router-link to="/descriptions">
           <el-button type="warning">Descriptions 描述列表</el-button>
         </router-link>
         <router-link to="/result">
           <el-button type="warning">Result 结果</el-button>
+        </router-link>
+        <router-link to="/statistic">
+          <el-button type="warning">Statistic 统计数值</el-button>
+        </router-link>
+        <router-link to="/card">
+          <el-button type="warning">Card 卡片</el-button>
+        </router-link>
+        <router-link to="/table">
+          <el-button type="warning">Table 表格</el-button>
+        </router-link>
+        <router-link to="/tree">
+          <el-button type="warning">Tree 树形控件</el-button>
+        </router-link>
+        <router-link to="/segmented">
+          <el-button type="warning">Segmented 分段控制器</el-button>
+        </router-link>
+        <router-link to="/image">
+          <el-button type="warning">Image 图片</el-button>
+        </router-link>
+        <router-link to="/pagination">
+          <el-button type="warning">Pagination 分页</el-button>
         </router-link>
 
         <h3>Navigation 导航</h3>
@@ -148,6 +178,29 @@
         </router-link>
         <router-link to="/backtop">
           <el-button type="info">Backtop 回到顶部</el-button>
+        </router-link>
+
+        <h3>Feedback 反馈</h3>
+        <router-link to="/dialog">
+          <el-button type="danger">Dialog 对话框</el-button>
+        </router-link>
+        <router-link to="/drawer">
+          <el-button type="danger">Drawer 抽屉</el-button>
+        </router-link>
+        <router-link to="/message-box">
+          <el-button type="danger">MessageBox 消息弹框</el-button>
+        </router-link>
+        <router-link to="/message">
+          <el-button type="danger">Message 消息提示</el-button>
+        </router-link>
+        <router-link to="/popover">
+          <el-button type="danger">Popover 气泡卡片</el-button>
+        </router-link>
+        <router-link to="/popconfirm">
+          <el-button type="danger">Popconfirm 气泡确认框</el-button>
+        </router-link>
+        <router-link to="/tooltip">
+          <el-button type="danger">Tooltip 文字提示</el-button>
         </router-link>
         </div>
     </el-card>
