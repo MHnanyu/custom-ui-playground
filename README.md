@@ -127,6 +127,7 @@ npm run build
 | cc-result | 结果 Result | ✅ 已完成 |
 | cc-skeleton | 骨架屏 Skeleton | ⏳ 待开发 |
 | cc-table | 表格 Table | ✅ 已完成 |
+| cc-table-column | 表格列 TableColumn | ✅ 已完成 |
 | cc-table-v2 | 虚拟化表格 TableV2 | ⏳ 待开发 |
 | cc-tag | 标签 Tag | ✅ 已完成 |
 | cc-timeline | 时间线 Timeline | ⏳ 待开发 |
@@ -172,10 +173,10 @@ npm run build
 |------|:----:|:------:|:----:|
 | Basic 基础组件 | 12 | 12 | 100% |
 | Form 表单组件 | 23 | 23 | 100% |
-| Data 数据展示 | 23 | 12 | 52% |
+| Data 数据展示 | 23 | 13 | 57% |
 | Navigation 导航 | 9 | 9 | 100% |
 | Feedback 反馈 | 10 | 7 | 70% |
-| **总计** | **77** | **63** | **82%** |
+| **总计** | **77** | **64** | **83%** |
 
 ## 技术栈
 

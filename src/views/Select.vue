@@ -262,10 +262,6 @@ const handleRemoveTag = (tag: any) => {
   align-items: flex-start;
 }
 
-.demo-row{
-  width: 400px;
-}
-
 .event-log {
   padding: 10px;
   background-color: #f5f7fa;
