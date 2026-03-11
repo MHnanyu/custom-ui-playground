@@ -138,6 +138,9 @@
         <router-link to="/table">
           <el-button type="warning">Table 表格</el-button>
         </router-link>
+        <router-link to="/table-column">
+          <el-button type="warning">TableColumn 表格列</el-button>
+        </router-link>
         <router-link to="/tree">
           <el-button type="warning">Tree 树形控件</el-button>
         </router-link>

@@ -109,6 +109,11 @@ const router = createRouter({
       component: () => import('@/views/Table.vue')
     },
     {
+      path: '/table-column',
+      name: 'TableColumn',
+      component: () => import('@/views/TableColumn.vue')
+    },
+    {
       path: '/form',
       name: 'Form',
       component: () => import('@/views/Form.vue')
