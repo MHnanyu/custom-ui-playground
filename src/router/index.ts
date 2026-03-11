@@ -104,6 +104,11 @@ const router = createRouter({
       component: () => import('@/views/Descriptions.vue')
     },
     {
+      path: '/table',
+      name: 'Table',
+      component: () => import('@/views/Table.vue')
+    },
+    {
       path: '/form',
       name: 'Form',
       component: () => import('@/views/Form.vue')
@@ -144,6 +149,16 @@ const router = createRouter({
       component: () => import('@/views/Result.vue')
     },
     {
+      path: '/statistic',
+      name: 'Statistic',
+      component: () => import('@/views/Statistic.vue')
+    },
+    {
+      path: '/card',
+      name: 'Card',
+      component: () => import('@/views/Card.vue')
+    },
+    {
       path: '/select',
       name: 'Select',
       component: () => import('@/views/Select.vue')
@@ -182,6 +197,11 @@ const router = createRouter({
       path: '/tree-select',
       name: 'TreeSelect',
       component: () => import('@/views/TreeSelect.vue')
+    },
+    {
+      path: '/tree',
+      name: 'Tree',
+      component: () => import('@/views/Tree.vue')
     },
     {
       path: '/upload',
@@ -232,6 +252,71 @@ const router = createRouter({
       path: '/backtop',
       name: 'Backtop',
       component: () => import('@/views/Backtop.vue')
+    },
+    {
+      path: '/dialog',
+      name: 'Dialog',
+      component: () => import('@/views/Dialog.vue')
+    },
+    {
+      path: '/drawer',
+      name: 'Drawer',
+      component: () => import('@/views/Drawer.vue')
+    },
+    {
+      path: '/collapse',
+      name: 'Collapse',
+      component: () => import('@/views/Collapse.vue')
+    },
+    {
+      path: '/tag',
+      name: 'Tag',
+      component: () => import('@/views/Tag.vue')
+    },
+    {
+      path: '/segmented',
+      name: 'Segmented',
+      component: () => import('@/views/Segmented.vue')
+    },
+    {
+      path: '/avatar',
+      name: 'Avatar',
+      component: () => import('@/views/Avatar.vue')
+    },
+    {
+      path: '/image',
+      name: 'Image',
+      component: () => import('@/views/Image.vue')
+    },
+    {
+      path: '/popover',
+      name: 'Popover',
+      component: () => import('@/views/Popover.vue')
+    },
+    {
+      path: '/popconfirm',
+      name: 'Popconfirm',
+      component: () => import('@/views/Popconfirm.vue')
+    },
+    {
+      path: '/tooltip',
+      name: 'Tooltip',
+      component: () => import('@/views/Tooltip.vue')
+    },
+    {
+      path: '/message-box',
+      name: 'MessageBox',
+      component: () => import('@/views/MessageBox.vue')
+    },
+    {
+      path: '/message',
+      name: 'Message',
+      component: () => import('@/views/Message.vue')
+    },
+    {
+      path: '/pagination',
+      name: 'Pagination',
+      component: () => import('@/views/Pagination.vue')
     }
   ]
 })
