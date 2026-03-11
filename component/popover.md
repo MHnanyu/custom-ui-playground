@@ -4,8 +4,6 @@
 
 ## 基础用法
 
-Popover 的属性与 Element Plus 的 el-popover 保持一致。
-
 ```vue
 <template>
   <cc-popover

@@ -9,9 +9,9 @@
 ```vue
 <template>
   <cc-table :data="tableData">
-    <el-table-column prop="date" label="日期" width="180"></el-table-column>
-    <el-table-column prop="name" label="姓名" width="180"></el-table-column>
-    <el-table-column prop="address" label="地址"></el-table-column>
+    <cc-table-column prop="date" label="日期" width="180" />
+    <cc-table-column prop="name" label="姓名" width="180" />
+    <cc-table-column prop="address" label="地址" />
   </cc-table>
 </template>
 
@@ -45,9 +45,9 @@ const tableData = ref([
 ```vue
 <template>
   <cc-table :data="tableData" stripe>
-    <el-table-column prop="date" label="日期" width="180"></el-table-column>
-    <el-table-column prop="name" label="姓名" width="180"></el-table-column>
-    <el-table-column prop="address" label="地址"></el-table-column>
+    <cc-table-column prop="date" label="日期" width="180" />
+    <cc-table-column prop="name" label="姓名" width="180" />
+    <cc-table-column prop="address" label="地址" />
   </cc-table>
 </template>
 
@@ -81,9 +81,9 @@ const tableData = ref([
 ```vue
 <template>
   <cc-table :data="tableData" border>
-    <el-table-column prop="date" label="日期" width="180"></el-table-column>
-    <el-table-column prop="name" label="姓名" width="180"></el-table-column>
-    <el-table-column prop="address" label="地址"></el-table-column>
+    <cc-table-column prop="date" label="日期" width="180" />
+    <cc-table-column prop="name" label="姓名" width="180" />
+    <cc-table-column prop="address" label="地址" />
   </cc-table>
 </template>
 
@@ -117,9 +117,9 @@ const tableData = ref([
 ```vue
 <template>
   <cc-table :data="tableData" height="200">
-    <el-table-column prop="date" label="日期" width="180"></el-table-column>
-    <el-table-column prop="name" label="姓名" width="180"></el-table-column>
-    <el-table-column prop="address" label="地址"></el-table-column>
+    <cc-table-column prop="date" label="日期" width="180" />
+    <cc-table-column prop="name" label="姓名" width="180" />
+    <cc-table-column prop="address" label="地址" />
   </cc-table>
 </template>
 
@@ -163,12 +163,12 @@ const tableData = ref([
 ```vue
 <template>
   <cc-table :data="tableData" border>
-    <el-table-column prop="date" label="日期" width="150" fixed></el-table-column>
-    <el-table-column prop="name" label="姓名" width="120"></el-table-column>
-    <el-table-column prop="province" label="省份" width="120"></el-table-column>
-    <el-table-column prop="city" label="市区" width="120"></el-table-column>
-    <el-table-column prop="address" label="地址" width="300"></el-table-column>
-    <el-table-column prop="zip" label="邮编" width="120" fixed="right"></el-table-column>
+    <cc-table-column prop="date" label="日期" width="150" fixed />
+    <cc-table-column prop="name" label="姓名" width="120" />
+    <cc-table-column prop="province" label="省份" width="120" />
+    <cc-table-column prop="city" label="市区" width="120" />
+    <cc-table-column prop="address" label="地址" width="300" />
+    <cc-table-column prop="zip" label="邮编" width="120" fixed="right" />
   </cc-table>
 </template>
 
@@ -203,9 +203,9 @@ const tableData = ref([
 ```vue
 <template>
   <cc-table :data="tableData" border>
-    <el-table-column prop="date" label="日期" width="180" sortable></el-table-column>
-    <el-table-column prop="name" label="姓名" width="180"></el-table-column>
-    <el-table-column prop="address" label="地址" sortable></el-table-column>
+    <cc-table-column prop="date" label="日期" width="180" sortable />
+    <cc-table-column prop="name" label="姓名" width="180" />
+    <cc-table-column prop="address" label="地址" sortable />
   </cc-table>
 </template>
 
@@ -234,15 +234,15 @@ const tableData = ref([
 
 ## 多选
 
-使用 `type="selection"` 的 el-table-column 可以实现多选。
+使用 `type="selection"` 的 cc-table-column 可以实现多选。
 
 ```vue
 <template>
   <cc-table :data="tableData" @selection-change="handleSelectionChange">
-    <el-table-column type="selection" width="55"></el-table-column>
-    <el-table-column prop="date" label="日期" width="180"></el-table-column>
-    <el-table-column prop="name" label="姓名" width="180"></el-table-column>
-    <el-table-column prop="address" label="地址"></el-table-column>
+    <cc-table-column type="selection" width="55" />
+    <cc-table-column prop="date" label="日期" width="180" />
+    <cc-table-column prop="name" label="姓名" width="180" />
+    <cc-table-column prop="address" label="地址" />
   </cc-table>
 </template>
 
@@ -275,21 +275,21 @@ const handleSelectionChange = (val: any[]) => {
 
 ## 展开行
 
-使用 `type="expand"` 的 el-table-column 可以实现展开行功能。
+使用 `type="expand"` 的 cc-table-column 可以实现展开行功能。
 
 ```vue
 <template>
   <cc-table :data="tableData">
-    <el-table-column type="expand">
+    <cc-table-column type="expand">
       <template #default="scope">
         <div m="4">
           <p m="t-0 b-2">姓名: {{ scope.row.name }}</p>
           <p>地址: {{ scope.row.address }}</p>
         </div>
       </template>
-    </el-table-column>
-    <el-table-column prop="date" label="日期" width="180"></el-table-column>
-    <el-table-column prop="name" label="姓名" width="180"></el-table-column>
+    </cc-table-column>
+    <cc-table-column prop="date" label="日期" width="180" />
+    <cc-table-column prop="name" label="姓名" width="180" />
   </cc-table>
 </template>
 

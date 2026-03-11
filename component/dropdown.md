@@ -7,17 +7,17 @@
 ```vue
 <template>
   <cc-dropdown>
-    <el-button>
-      下拉菜单<el-icon class="el-icon--right"><arrow-down /></el-icon>
-    </el-button>
+    <cc-button>
+      下拉菜单<cc-icon class="cc-icon--right"><arrow-down /></cc-icon>
+    </cc-button>
     <template #dropdown>
-      <el-dropdown-menu>
-        <el-dropdown-item>黄金糕</el-dropdown-item>
-        <el-dropdown-item>狮子头</el-dropdown-item>
-        <el-dropdown-item>螺蛳粉</el-dropdown-item>
-        <el-dropdown-item disabled>双皮奶</el-dropdown-item>
-        <el-dropdown-item divided>蚵仔煎</el-dropdown-item>
-      </el-dropdown-menu>
+      <cc-dropdown-menu>
+        <cc-dropdown-item>黄金糕</cc-dropdown-item>
+        <cc-dropdown-item>狮子头</cc-dropdown-item>
+        <cc-dropdown-item>螺蛳粉</cc-dropdown-item>
+        <cc-dropdown-item disabled>双皮奶</cc-dropdown-item>
+        <cc-dropdown-item divided>蚵仔煎</cc-dropdown-item>
+      </cc-dropdown-menu>
     </template>
   </cc-dropdown>
 </template>
@@ -30,25 +30,25 @@
 ```vue
 <template>
   <cc-dropdown trigger="click">
-    <el-button>
-      click 触发<el-icon class="el-icon--right"><arrow-down /></el-icon>
-    </el-button>
+    <cc-button>
+      click 触发<cc-icon class="cc-icon--right"><arrow-down /></cc-icon>
+    </cc-button>
     <template #dropdown>
-      <el-dropdown-menu>
-        <el-dropdown-item>黄金糕</el-dropdown-item>
-        <el-dropdown-item>狮子头</el-dropdown-item>
-      </el-dropdown-menu>
+      <cc-dropdown-menu>
+        <cc-dropdown-item>黄金糕</cc-dropdown-item>
+        <cc-dropdown-item>狮子头</cc-dropdown-item>
+      </cc-dropdown-menu>
     </template>
   </cc-dropdown>
   <cc-dropdown trigger="hover">
-    <el-button>
-      hover 触发<el-icon class="el-icon--right"><arrow-down /></el-icon>
-    </el-button>
+    <cc-button>
+      hover 触发<cc-icon class="cc-icon--right"><arrow-down /></cc-icon>
+    </cc-button>
     <template #dropdown>
-      <el-dropdown-menu>
-        <el-dropdown-item>黄金糕</el-dropdown-item>
-        <el-dropdown-item>狮子头</el-dropdown-item>
-      </el-dropdown-menu>
+      <cc-dropdown-menu>
+        <cc-dropdown-item>黄金糕</cc-dropdown-item>
+        <cc-dropdown-item>狮子头</cc-dropdown-item>
+      </cc-dropdown-menu>
     </template>
   </cc-dropdown>
 </template>
@@ -60,51 +60,51 @@
 
 ```vue
 <template>
-  <el-dropdown split-button type="primary" @click="handleClick">
+  <cc-dropdown split-button type="primary" @click="handleClick">
     默认菜单
     <template #dropdown>
-      <el-dropdown-menu>
-        <el-dropdown-item>黄金糕</el-dropdown-item>
-        <el-dropdown-item>狮子头</el-dropdown-item>
-      </el-dropdown-menu>
+      <cc-dropdown-menu>
+        <cc-dropdown-item>黄金糕</cc-dropdown-item>
+        <cc-dropdown-item>狮子头</cc-dropdown-item>
+      </cc-dropdown-menu>
     </template>
-  </el-dropdown>
-  <el-dropdown split-button type="success">
+  </cc-dropdown>
+  <cc-dropdown split-button type="success">
     success
     <template #dropdown>
-      <el-dropdown-menu>
-        <el-dropdown-item>黄金糕</el-dropdown-item>
-        <el-dropdown-item>狮子头</el-dropdown-item>
-      </el-dropdown-menu>
+      <cc-dropdown-menu>
+        <cc-dropdown-item>黄金糕</cc-dropdown-item>
+        <cc-dropdown-item>狮子头</cc-dropdown-item>
+      </cc-dropdown-menu>
     </template>
-  </el-dropdown>
-  <el-dropdown split-button type="info">
+  </cc-dropdown>
+  <cc-dropdown split-button type="info">
     info
     <template #dropdown>
-      <el-dropdown-menu>
-        <el-dropdown-item>黄金糕</el-dropdown-item>
-        <el-dropdown-item>狮子头</el-dropdown-item>
-      </el-dropdown-menu>
+      <cc-dropdown-menu>
+        <cc-dropdown-item>黄金糕</cc-dropdown-item>
+        <cc-dropdown-item>狮子头</cc-dropdown-item>
+      </cc-dropdown-menu>
     </template>
-  </el-dropdown>
-  <el-dropdown split-button type="warning">
+  </cc-dropdown>
+  <cc-dropdown split-button type="warning">
     warning
     <template #dropdown>
-      <el-dropdown-menu>
-        <el-dropdown-item>黄金糕</el-dropdown-item>
-        <el-dropdown-item>狮子头</el-dropdown-item>
-      </el-dropdown-menu>
+      <cc-dropdown-menu>
+        <cc-dropdown-item>黄金糕</cc-dropdown-item>
+        <cc-dropdown-item>狮子头</cc-dropdown-item>
+      </cc-dropdown-menu>
     </template>
-  </el-dropdown>
-  <el-dropdown split-button type="danger">
+  </cc-dropdown>
+  <cc-dropdown split-button type="danger">
     danger
     <template #dropdown>
-      <el-dropdown-menu>
-        <el-dropdown-item>黄金糕</el-dropdown-item>
-        <el-dropdown-item>狮子头</el-dropdown-item>
-      </el-dropdown-menu>
+      <cc-dropdown-menu>
+        <cc-dropdown-item>黄金糕</cc-dropdown-item>
+        <cc-dropdown-item>狮子头</cc-dropdown-item>
+      </cc-dropdown-menu>
     </template>
-  </el-dropdown>
+  </cc-dropdown>
 </template>
 
 <script setup>
@@ -121,26 +121,26 @@ const handleClick = () => {
 ```vue
 <template>
   <cc-dropdown disabled>
-    <el-button>
-      禁用状态<el-icon class="el-icon--right"><arrow-down /></el-icon>
-    </el-button>
+    <cc-button>
+      禁用状态<cc-icon class="cc-icon--right"><arrow-down /></cc-icon>
+    </cc-button>
     <template #dropdown>
-      <el-dropdown-menu>
-        <el-dropdown-item>黄金糕</el-dropdown-item>
-        <el-dropdown-item>狮子头</el-dropdown-item>
-      </el-dropdown-menu>
+      <cc-dropdown-menu>
+        <cc-dropdown-item>黄金糕</cc-dropdown-item>
+        <cc-dropdown-item>狮子头</cc-dropdown-item>
+      </cc-dropdown-menu>
     </template>
   </cc-dropdown>
   <cc-dropdown>
-    <el-button>
-      菜单项禁用<el-icon class="el-icon--right"><arrow-down /></el-icon>
-    </el-button>
+    <cc-button>
+      菜单项禁用<cc-icon class="cc-icon--right"><arrow-down /></cc-icon>
+    </cc-button>
     <template #dropdown>
-      <el-dropdown-menu>
-        <el-dropdown-item>黄金糕</el-dropdown-item>
-        <el-dropdown-item disabled>狮子头</el-dropdown-item>
-        <el-dropdown-item>螺蛳粉</el-dropdown-item>
-      </el-dropdown-menu>
+      <cc-dropdown-menu>
+        <cc-dropdown-item>黄金糕</cc-dropdown-item>
+        <cc-dropdown-item disabled>狮子头</cc-dropdown-item>
+        <cc-dropdown-item>螺蛳粉</cc-dropdown-item>
+      </cc-dropdown-menu>
     </template>
   </cc-dropdown>
 </template>

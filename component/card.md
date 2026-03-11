@@ -38,7 +38,7 @@
     <template #header>
       <div class="card-header">
         <span>卡片标题</span>
-        <el-button type="primary">操作</el-button>
+        <cc-button type="primary">操作</cc-button>
       </div>
     </template>
     <p>卡片内容</p>
@@ -99,7 +99,7 @@
       <span>图片卡片</span>
       <div class="bottom">
         <time class="time">2024-01-01</time>
-        <el-button type="text">操作</el-button>
+        <cc-button type="text">操作</cc-button>
       </div>
     </div>
   </cc-card>

@@ -38,7 +38,7 @@
 
 ```vue
 <template>
-  <el-button @click="collapse = !collapse">折叠</el-button>
+  <cc-button @click="collapse = !collapse">折叠</cc-button>
   <cc-menu :collapse="collapse">
     <cc-menu-item index="1">处理中心</cc-menu-item>
     <cc-menu-item index="2">订单管理</cc-menu-item>

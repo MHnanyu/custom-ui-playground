@@ -4,8 +4,6 @@
 
 ## 基础用法
 
-Popconfirm 的属性与 Element Plus 的 el-popconfirm 保持一致。
-
 ```vue
 <template>
   <cc-popconfirm

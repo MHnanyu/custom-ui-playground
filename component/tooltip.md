@@ -4,8 +4,6 @@
 
 ## 基础用法
 
-Tooltip 的属性与 Element Plus 的 el-tooltip 保持一致。
-
 ```vue
 <template>
   <cc-tooltip content="这是一段提示信息">
@@ -112,7 +110,7 @@ const visible = ref(false)
 
 ```vue
 <template>
-  <cc-tooltip content="自定义动画" transition="el-zoom-in-top">
+  <cc-tooltip content="自定义动画" transition="fade-scale">
     <cc-button>自定义动画</cc-button>
   </cc-tooltip>
 </template>
@@ -157,7 +155,7 @@ const visible = ref(false)
 | visible / v-model | 手动控制显示状态 | boolean | false |
 | disabled | 是否禁用 | boolean | false |
 | offset | 偏移量 | number | 0 |
-| transition | 动画名称 | string | el-fade-in-linear |
+| transition | 动画名称 | string | fade-scale |
 | show-after | 显示延迟，单位毫秒 | number | 0 |
 | hide-after | 隐藏延迟，单位毫秒 | number | 200 |
 | show-arrow | 是否显示箭头 | boolean | true |

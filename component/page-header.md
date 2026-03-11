@@ -36,7 +36,7 @@
 <template>
   <cc-page-header title="完整示例">
     <template #extra>
-      <el-button type="primary">操作按钮</el-button>
+      <cc-button type="primary">操作按钮</cc-button>
     </template>
   </cc-page-header>
 </template>

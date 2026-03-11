@@ -1,9 +1,5 @@
 # Message 消息提示
 
-## 简介
-
-cc-message 是对 Element Plus `ElMessage` 的封装，提供统一命名规范（`cc-` 前缀）。
-
 ## 基本用法
 
 ```vue
@@ -30,8 +26,6 @@ const handleSuccess = () => {
 - `CcMessage.info(message, options)` - 信息消息
 
 ## Props
-
-由于 cc-message 是方法调用式组件，它支持 ElMessage 的所有配置选项：
 
 | 参数 | 说明 | 类型 | 默认值 |
 |------|------|------|--------|

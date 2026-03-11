@@ -16,7 +16,7 @@
     <cc-step title="步骤3" />
   </cc-steps>
 
-  <el-button style="margin-top: 20px" @click="next">下一步</el-button>
+  <cc-button style="margin-top: 20px" @click="next">下一步</cc-button>
 </template>
 
 <script setup lang="ts">
@@ -83,17 +83,17 @@ const handleClick = (index: number) => {
   <cc-steps :active="2">
     <cc-step title="步骤1">
       <template #icon>
-        <el-icon><Edit /></el-icon>
+        <cc-icon :icon="Edit" />
       </template>
     </cc-step>
     <cc-step title="步骤2">
       <template #icon>
-        <el-icon><Upload /></el-icon>
+        <cc-icon :icon="Upload" />
       </template>
     </cc-step>
     <cc-step title="步骤3">
       <template #icon>
-        <el-icon><Check /></el-icon>
+        <cc-icon :icon="Check" />
       </template>
     </cc-step>
   </cc-steps>

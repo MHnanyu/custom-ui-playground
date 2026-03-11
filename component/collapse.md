@@ -60,7 +60,7 @@
     <cc-collapse-item name="1">
       <template #title>
         <span>一致性 Consistency</span>
-        <el-icon class="header-icon"><InfoFilled /></el-icon>
+        <cc-icon class="header-icon"><InfoFilled /></cc-icon>
       </template>
       <div>与现实生活一致：与现实生活的流程、逻辑保持一致，遵循用户习惯的语言和概念；</div>
     </cc-collapse-item>
@@ -111,7 +111,7 @@
     <cc-collapse-item name="1">
       <template #title>
         <span>一致性 Consistency</span>
-        <el-tag size="small" type="primary">推荐</el-tag>
+        <cc-tag size="small" type="primary">推荐</cc-tag>
       </template>
       <div>与现实生活一致：与现实生活的流程、逻辑保持一致，遵循用户习惯的语言和概念；</div>
     </cc-collapse-item>

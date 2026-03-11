@@ -46,7 +46,7 @@
   >
     {{ tag }}
   </cc-tag>
-  <el-input
+  <cc-input
     v-if="inputVisible"
     ref="InputRef"
     v-model="inputValue"

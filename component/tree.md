@@ -158,62 +158,7 @@ const handleCheck = (checkedNodes: any, checkedKeys: any) => {
 </script>
 ```
 
-## 懒加载
-
-数据量很大时可使用懒加载模式。
-
-```vue
-<template>
-  <cc-tree
-    :props="props"
-    :load="loadNode"
-    lazy
-    show-checkbox
-  />
-</template>
-
-<script setup lang="ts">
-import { ref } from 'vue'
-import { ElTree } from 'element-plus'
-
-interface TreeNode {
-  label: string
-  children?: TreeNode[]
-}
-
-const props = {
-  label: 'label',
-  children: 'children',
-  isLeaf: 'isLeaf'
-}
-
-const loadNode = (node: any, resolve: (data: TreeNode[]) => void) => {
-  if (node.level === 0) {
-    return resolve([
-      { label: 'region' }
-    ])
-  }
-  if (node.level > 1) return resolve([])
-
-  setTimeout(() => {
-    const data: TreeNode[] = [
-      {
-        label: 'leaf',
-        isLeaf: true
-      },
-      {
-        label: 'zone'
-      }
-    ]
-    resolve(data)
-  }, 500)
-}
-</script>
-```
-
-## 默认展开和选中
-
-默认展开和选中节点。
+## 禁用状态
 
 ```vue
 <template>
@@ -344,10 +289,10 @@ const data = [
 <template>
   <div>
     <div class="mb-4">
-      <el-radio-group v-model="checkStrictly" size="small">
-        <el-radio-button :label="true">父子不互选</el-radio-button>
-        <el-radio-button :label="false">父子互选</el-radio-button>
-      </el-radio-group>
+      <cc-radio-group v-model="checkStrictly" size="small">
+        <cc-radio-button :label="true">父子不互选</cc-radio-button>
+        <cc-radio-button :label="false">父子互选</cc-radio-button>
+      </cc-radio-group>
     </div>
     <cc-tree
       :data="data"
@@ -434,7 +379,7 @@ const data = [
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { ElMessage } from 'element-plus'
+import { CcMessage } from 'cc-ui'
 
 interface TreeNode {
   id: number
@@ -480,7 +425,7 @@ const append = (data: TreeNode) => {
     id: id++,
     label: '新增节点'
   })
-  ElMessage.success('添加成功')
+  CcMessage.success('添加成功')
 }
 
 const remove = (node: any, data: TreeNode) => {
@@ -488,7 +433,7 @@ const remove = (node: any, data: TreeNode) => {
   const children = parent.data.children || parent.data
   const index = children.findIndex((d: any) => d.id === data.id)
   children.splice(index, 1)
-  ElMessage.success('删除成功')
+  CcMessage.success('删除成功')
 }
 </script>
 
